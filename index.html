@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | PT & Boxing Coach</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-black text-white selection:bg-red-600">
+
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="text-2xl font-black tracking-tighter text-red-600">BOXING PRO</div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-red-500 transition">Về tôi</a>
+                <a href="#services" class="hover:text-red-500 transition">Dịch vụ</a>
+                <a href="#results" class="hover:text-red-500 transition">Kết quả</a>
+                <a href="#contact" class="bg-red-600 px-4 py-2 rounded-full hover:bg-red-700 transition">Đăng ký ngay</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=2000" alt="Boxing Background" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-6xl md:text-8xl font-black italic uppercase tracking-tighter mb-4">
+                Đánh thức <span class="text-red-600">Bản lĩnh</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Huấn luyện viên PT chuyên nghiệp & Boxing thực chiến. Giúp bạn thay đổi hình thể và làm chủ kỹ thuật đỉnh cao.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#contact" class="px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:scale-105 transition-transform">BẮT ĐẦU NGAY</a>
+                <a href="#services" class="px-8 py-4 border border-white font-bold rounded-lg hover:bg-white hover:text-black transition">TÌM HIỂU THÊM</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-black mb-16 text-center italic uppercase">Dịch vụ huấn luyện</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-black border border-white/5 rounded-2xl hover:border-red-600 transition group">
+                    <i class="fa-solid fa-dumbbell text-4xl text-red-600 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Personal Training</h3>
+                    <p class="text-gray-400">Lộ trình Gym 1:1 chuyên sâu, tập trung vào tăng cơ, giảm mỡ và cải thiện sức bền theo khoa học.</p>
+                </div>
+                <div class="p-8 bg-black border border-white/5 rounded-2xl hover:border-red-600 transition group">
+                    <i class="fa-solid fa-hand-fist text-4xl text-red-600 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Boxing Skills</h3>
+                    <p class="text-gray-400">Học kỹ thuật đấm, di chuyển bộ chân và phản xạ thực chiến. Phù hợp cho cả nam và nữ.</p>
+                </div>
+                <div class="p-8 bg-black border border-white/5 rounded-2xl hover:border-red-600 transition group">
+                    <i class="fa-solid fa-bolt text-4xl text-red-600 mb-6"></i>
+                    <h3 class="text-2xl font-bold mb-4">Combo Chiến Binh</h3>
+                    <p class="text-gray-400">Sự kết hợp hoàn hảo giữa thể lực Gym và kỹ năng Boxing giúp bạn có cơ thể săn chắc và linh hoạt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 border-y border-white/10">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-black text-red-600">500+</div>
+                <div class="text-gray-400 uppercase text-sm font-bold">Học viên</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-red-600">05+</div>
+                <div class="text-gray-400 uppercase text-sm font-bold">Năm kinh nghiệm</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-red-600">100%</div>
+                <div class="text-gray-400 uppercase text-sm font-bold">Tận tâm</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black text-red-600">24/7</div>
+                <div class="text-gray-400 uppercase text-sm font-bold">Hỗ trợ online</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-black mb-8 italic italic uppercase">Sẵn sàng thay đổi chưa?</h2>
+            <p class="text-gray-400 mb-12 text-lg">Đừng để mục tiêu của bạn chỉ là dự định. Hãy bắt đầu hành trình ngay hôm nay với sự hỗ trợ chuyên nghiệp nhất.</p>
+            
+            <div class="bg-zinc-900 p-8 rounded-3xl border border-white/10">
+                <div class="flex flex-col space-y-4">
+                    <a href="https://zalo.me/your-number" class="w-full py-4 bg-blue-600 rounded-xl font-bold flex items-center justify-center gap-3">
+                        <i class="fa-solid fa-comment"></i> Nhắn tin qua Zalo
+                    </a>
+                    <a href="https://m.me/your-profile" class="w-full py-4 bg-white text-black rounded-xl font-bold flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-facebook-messenger"></i> Facebook Messenger
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-white/10 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 YourName Boxing Coach. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
